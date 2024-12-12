@@ -18,7 +18,7 @@ function MyDescription() {
           Louis Sin <span className="ageHeader">{age} yrs old</span>
         </h1>
         <div className="countryOfOrigin">
-          <img src="/assets/images/countryFlag.png" className="countryFlag" />
+          <img src="Schild/images/countryFlag.png" className="countryFlag" />
           <p className="countryName">Singapore, SG</p>
         </div>
         <p className="selfDescription">

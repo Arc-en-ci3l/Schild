@@ -4,7 +4,7 @@
 }
 
 .profilePicture {
-  background-image: url("/assets/images/profilePicture.png");
+  background-image: url("/images/profilePicture.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
