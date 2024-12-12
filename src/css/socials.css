@@ -1,0 +1,32 @@
+.socialLinksContainer {
+  background-color: var(--main);
+  align-content: center;
+  width: fit-content;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+
+.socialLinksIcon {
+  height: 50px;
+  padding: 0 5px;
+}
+
+.downloadResumeBtn {
+  align-items: center;
+  background-color: var(--secondary);
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 5px 10px;
+  width: fit-content;
+}
+.downloadResumeLink {
+  display: flex;
+  color: var(--text);
+  text-decoration: none;
+}
+.downloadIcon {
+  margin-left: 5px;
+  height: 20px;
+}

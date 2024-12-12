@@ -1,0 +1,10 @@
+#mainSection {
+  margin: auto;
+  width: 50vw;
+  height: 1000px;
+  background: radial-gradient(
+    circle,
+    rgba(96, 92, 60, 0.97) 0%,
+    rgba(89, 87, 93, 0.97) 90%
+  );
+}

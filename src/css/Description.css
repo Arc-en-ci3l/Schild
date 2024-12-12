@@ -1,0 +1,35 @@
+.myDescriptionComponent {
+  display: flex;
+  padding-left: 10px;
+}
+
+.profilePicture {
+  background-image: url("/assets/images/profilePicture.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  height: 180px;
+  min-width: 180px;
+  border: 2px solid var(--main);
+}
+.personalDetails {
+  width: 350px;
+  margin-left: 27px;
+}
+.ageHeader {
+  font-size: 20px;
+}
+.countryOfOrigin {
+  display: flex;
+  margin-top: 5px;
+}
+.countryFlag {
+  margin-right: 10px;
+  height: 16px;
+}
+.countryName {
+  font-size: 16px;
+}
+.selfDescription {
+  margin-top: 30px;
+}

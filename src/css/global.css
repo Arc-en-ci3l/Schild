@@ -1,0 +1,53 @@
+@font-face {
+  font-family: Futura Heavy;
+  src: url(../fonts/Futura/Futura_Heavy_PT.ttf);
+}
+@font-face {
+  font-family: Futura Medium;
+  src: url(../fonts/Futura/Futura_Medium_PT.ttf);
+}
+@font-face {
+  font-family: Futura Light;
+  src: url(../fonts/Futura/Futura_Light_PT.ttf);
+}
+
+:root {
+  --main: #3d3c40;
+  --secondary: #212123;
+  --text: #f0f0f0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Futura Medium";
+}
+
+body {
+  background-image: url("/assets/images//Background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  color: var(--text);
+}
+h1,
+h2,
+h3 {
+  font-family: "Futura Heavy";
+}
+h1 {
+  font-size: 32px;
+}
+h2 {
+  font-size: 28px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-family: "Futura Medium";
+  font-size: 18px;
+}
+
+p {
+  font-size: 18px;
+}
