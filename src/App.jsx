@@ -9,7 +9,7 @@ function App() {
       <main id="pictureBackground">
         <section id="mainSection">
           <Routes>
-            <Route path="/Schild" element={<Home />} />
+            <Route path="/Schild/" element={<Home />} />
           </Routes>
         </section>
       </main>

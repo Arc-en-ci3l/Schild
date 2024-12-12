@@ -10,10 +10,7 @@ function Socials() {
           rel="noopener noreferrer"
           className="socialLink"
         >
-          <img
-            src="Schild/icons/LinkedInIcon.svg"
-            className="socialLinksIcon"
-          />
+          <img src="icons/LinkedInIcon.svg" className="socialLinksIcon" />
         </a>
         <a
           href="https://github.com/Arc-en-ci3l"
@@ -21,7 +18,7 @@ function Socials() {
           rel="noopener noreferrer"
           className="socialLink"
         >
-          <img src="Schild/icons/GitHubIcon.svg" className="socialLinksIcon" />
+          <img src="icons/GitHubIcon.svg" className="socialLinksIcon" />
         </a>
         <a
           href="mailto:4rc@arcenciel.dev"
@@ -29,19 +26,19 @@ function Socials() {
           rel="noopener noreferrer"
           className="socialLink"
         >
-          <img src="Schild/icons/emailIcon.png" className="socialLinksIcon" />
+          <img src="icons/emailIcon.png" className="socialLinksIcon" />
         </a>
       </div>
 
       <button className="downloadResumeBtn">
         <a
-          href="Schild/documents/myResume.pdf"
+          href="documents/myResume.pdf"
           download="myResume.pdf"
           rel="noopener noreferrer"
           className="downloadResumeLink"
         >
           Resume
-          <img src="Schild/icons/downloadIcon.png" className="downloadIcon" />
+          <img src="icons/downloadIcon.png" className="downloadIcon" />
         </a>
       </button>
     </div>
