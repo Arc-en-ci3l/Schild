@@ -1,7 +1,11 @@
 .myWorksComponent {
   background-color: var(--main);
   border-radius: 5px;
-  height: 500px;
+  height: fit-content;
+  min-height: 500px;
+}
+.myWorksTabContent {
+  padding: 0 10px;
 }
 
 .myWorksNav {

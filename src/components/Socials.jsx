@@ -38,7 +38,7 @@ function Socials() {
           className="downloadResumeLink"
         >
           Resume
-          <img src="icons/downloadIcon.png" className="downloadIcon" />
+          <img src="icons/downloadIcon.svg" className="downloadIcon" />
         </a>
       </button>
     </div>

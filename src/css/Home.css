@@ -13,6 +13,7 @@
   width: 94%;
   justify-content: center;
 }
+
 .myDescriptionComponent {
   grid-area: description;
 }

@@ -8,8 +8,8 @@
 }
 
 .socialLinksIcon {
-  height: 50px;
-  padding: 0 5px;
+  height: 40px;
+  padding: 0px 2px;
 }
 
 .downloadResumeBtn {
@@ -28,5 +28,4 @@
 }
 .downloadIcon {
   margin-left: 5px;
-  height: 20px;
 }

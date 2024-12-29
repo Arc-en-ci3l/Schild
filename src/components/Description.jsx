@@ -22,8 +22,8 @@ function MyDescription() {
           <p className="countryName">Singapore, SG</p>
         </div>
         <p className="selfDescription">
-          A full stack dev who likes to develop web or mobile applications,
-          drink tea, coffee and consume anime content.
+          A full stack dev who likes to develop web applications, drink tea,
+          coffee and consume anime content.
         </p>
       </div>
     </header>

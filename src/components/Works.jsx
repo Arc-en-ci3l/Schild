@@ -1,15 +1,30 @@
 import { useState } from "react";
 import Education from "./Education";
-import Projects from "./Projects";
+import ProjectCard from "./ProjectCard";
 
 import "../css/Works.css";
 
 function MyWorks() {
-  const [tabState, setTabState] = useState(1);
+  const [tabState, setTabState] = useState(0);
 
   const toggleTab = (index) => {
     setTabState(index);
   };
+
+  const projectInfo = [
+    {
+      id: 1,
+      title: "Hotel Website",
+      image: "images/placeHolder.jpeg",
+      tech: "HTML | CSS | jQuery | PHP | mySQL",
+    },
+    {
+      id: 2,
+      title: "Koufu Website",
+      image: "images/placeHolder.jpeg",
+      tech: "HTML | CSS | JS",
+    },
+  ];
 
   return (
     <article className="myWorksComponent">
@@ -18,7 +33,7 @@ function MyWorks() {
           onClick={() => toggleTab(0)}
           className={tabState === 0 ? "myWorksTab activeTab" : "myWorksTab"}
         >
-          <h4>Projects</h4>
+          <h4>Recent Projects</h4>
         </div>
         <div
           onClick={() => toggleTab(1)}
@@ -34,7 +49,9 @@ function MyWorks() {
             tabState === 0 ? "myWorksContent activeContent" : "myWorksContent"
           }
         >
-          <Projects />
+          {projectInfo.map((info) => (
+            <ProjectCard info={info} key={info.id} />
+          ))}
         </div>
         <div
           className={
