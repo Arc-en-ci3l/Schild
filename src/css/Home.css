@@ -13,6 +13,12 @@
   width: 94%;
   justify-content: center;
 }
+@media screen and (max-width: 720px) {
+  .homePage {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 .myDescriptionComponent {
   grid-area: description;

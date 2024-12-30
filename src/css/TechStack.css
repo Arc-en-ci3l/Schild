@@ -13,21 +13,21 @@
   padding: 5px;
   height: 30px;
 }
-
 .myTechContent {
   display: grid;
   gap: 5px;
   grid-template-columns: repeat(4, 1fr);
-  padding: 5px 10px;
+  padding: 15px 20px;
+}
+.myTechGridItem {
+  align-items: center;
 }
 
-.myTechGridItem {
-  align-content: center;
-}
 .techStackIcons {
   height: 40px;
-  width: 40px;
+  aspect-ratio: 1 / 1;
 }
 .techStackName {
+  text-align: center;
   font-size: 12px;
 }
