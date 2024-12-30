@@ -15,13 +15,13 @@ function MyWorks() {
     {
       id: 1,
       title: "Hotel Website",
-      image: "images/placeHolder.jpeg",
+      image: "images/placeholder.png",
       tech: "HTML | CSS | jQuery | PHP | mySQL",
     },
     {
       id: 2,
       title: "Koufu Website",
-      image: "images/placeHolder.jpeg",
+      image: "images/placeholder.png",
       tech: "HTML | CSS | JS",
     },
   ];

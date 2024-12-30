@@ -5,7 +5,7 @@ function ProjectCard({ info }) {
     <div className="projectCard">
       <img src={info.image} alt="projectImage" className="projectCardImage" />
 
-      <div className="projectCardDescription">
+      <div className="projectCardDetails">
         <h4>{info.title}</h4>
         <div className="projectCardTech">{info.tech}</div>
       </div>

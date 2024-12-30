@@ -1,0 +1,33 @@
+.myTechComponent {
+  background: var(--main);
+  height: fit-content;
+  border-radius: 5px;
+}
+.myTechHeader {
+  background-color: var(--secondary);
+  text-align: center;
+  justify-content: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  height: 30px;
+}
+
+.myTechContent {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 5px 10px;
+}
+
+.myTechGridItem {
+  align-content: center;
+}
+.techStackIcons {
+  height: 40px;
+  width: 40px;
+}
+.techStackName {
+  font-size: 12px;
+}

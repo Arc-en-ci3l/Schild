@@ -1,9 +1,9 @@
 import Description from "../components/Description";
 import Works from "../components/Works";
 import Socials from "../components/Socials";
-import Proficiencies from "../components/Proficiencies";
+import TechStack from "../components/TechStack";
 
-import "../css/home.css";
+import "../css/Home.css";
 
 function Home() {
   return (
@@ -11,7 +11,7 @@ function Home() {
       <Description />
       <Socials />
       <Works />
-      <Proficiencies />
+      <TechStack />
     </div>
   );
 }

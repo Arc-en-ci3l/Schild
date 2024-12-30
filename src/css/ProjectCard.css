@@ -13,7 +13,7 @@
   height: 100%;
 }
 
-.projectCardDescription {
+.projectCardDetails {
   display: flex;
   flex-direction: column;
   justify-content: space-between;

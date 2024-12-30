@@ -1,14 +1,11 @@
+import { differenceInYears } from "date-fns";
+
 import "../css/Description.css";
 
 function MyDescription() {
-  const currentDate = new Date();
+  const today = new Date();
   const birthDate = new Date("2006-07-16");
-  let age = currentDate.getFullYear() - 2006;
-
-  currentDate.getMonth() > birthDate.getMonth() &&
-  currentDate.getDay() > birthDate.getDay()
-    ? age //Birthday passed
-    : (age -= 1); //Birthday haven't pass
+  const age = differenceInYears(today, birthDate);
 
   return (
     <header className="myDescriptionComponent">
