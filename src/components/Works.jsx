@@ -24,9 +24,9 @@ function MyWorks() {
       id: 2,
       title: "Portfolio Website - Dec 2024",
       image: "icons/favicon.png",
-      tech: "React | CSS3",
+      tech: "React | JS | CSS3",
       description:
-        "You're looking at it right now :> - With an interest in learning React, this website to showcase myself was developed with React libraries.",
+        "You're looking at it right now ^-^. With an interest in learning React, this website to showcase myself was developed with React libraries.",
     },
   ];
 
@@ -41,7 +41,7 @@ function MyWorks() {
       id: 1,
 
       school: "Montfort Secondary School",
-      course: "O Level Programme",
+      course: "O-Level Programme",
       duration: "2019 - 2022",
     },
   ];
