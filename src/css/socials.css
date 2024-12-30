@@ -29,3 +29,9 @@
 .downloadIcon {
   margin-left: 5px;
 }
+
+@media screen and (max-width: 720px) {
+  .socialLinksContainer {
+    padding: none;
+  }
+}

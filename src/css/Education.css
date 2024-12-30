@@ -1,0 +1,21 @@
+.educationCard {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: fit-content;
+}
+.educationDuration {
+  text-align: center;
+  margin: 10px 0 0;
+  padding: 4px 0;
+  width: 100px;
+  height: fit-content;
+  box-sizing: border-box;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  background: radial-gradient(
+    circle,
+    rgba(96, 92, 60, 0.97) 0%,
+    rgba(89, 87, 93, 0.97) 90%
+  );
+}

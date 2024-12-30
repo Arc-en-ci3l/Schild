@@ -2,12 +2,18 @@ import "../css/TechStack.css";
 
 function TechStack() {
   const techStack = [
-    { name: "HTML", icon: "icons/Techstack/HTML5.svg" },
-    { name: "CSS", icon: "icons/Techstack/CSS3.svg" },
-    { name: "Javascript", icon: "icons/Techstack/JavaScript.svg" },
-    { name: "NodeJS", icon: "icons/Techstack/NodeJS.svg" },
-    { name: "Vue.js", icon: "icons/Techstack/VueJS.svg" },
-    { name: "mySQL", icon: "icons/Techstack/mySQL.svg" },
+    { name: "HTML5 & CSS3", percentage: "90%" },
+    { name: "JavaScript, jQuery", percentage: "75%" },
+    { name: "PHP", percentage: "65%" },
+    { name: "Vue.js", percentage: "65%" },
+    { name: "React", percentage: "40%" },
+    { name: "C#, ASP.NET", percentage: "40%" },
+    { name: "Dart & Flutter", percentage: "50%" },
+    { name: "Python", percentage: "50%" },
+    { name: "Java, Selenium, jUnit", percentage: "65%" },
+    { name: "mySQL, SQL", percentage: "60%" },
+    { name: "Adobe Ai, XD, Ps", percentage: "55%" },
+    { name: "Adobe Premiere Pro", percentage: "30%" },
   ];
 
   return (
@@ -19,8 +25,13 @@ function TechStack() {
       <div className="myTechContent">
         {techStack.map((tech) => (
           <div className="myTechGridItem">
-            <img src={tech.icon} alt="techIcon" className="techStackIcons" />
-            <p className="techStackName">{tech.name}</p>
+            <div className="techStackName">
+              <span>{tech.name}</span>
+              <span>{tech.percentage}</span>
+            </div>
+            <div className="percent_bar">
+              <div className="bar_in" style={{ width: tech.percentage }}></div>
+            </div>
           </div>
         ))}
       </div>

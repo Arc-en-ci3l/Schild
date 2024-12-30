@@ -14,20 +14,40 @@
   height: 30px;
 }
 .myTechContent {
-  display: grid;
-  gap: 5px;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  flex-direction: column;
   padding: 15px 20px;
 }
 .myTechGridItem {
   align-items: center;
 }
-
-.techStackIcons {
-  height: 40px;
-  aspect-ratio: 1 / 1;
-}
 .techStackName {
-  text-align: center;
-  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2px;
+  font-size: 16px;
+}
+
+@keyframes bar_fill {
+  0% {
+    width: 0px;
+  }
+  100% {
+  }
+}
+
+.percent_bar {
+  background-color: var(--text);
+  margin-bottom: 20px;
+  border-radius: 5px;
+  height: 5px;
+}
+
+.bar_in {
+  animation: 2s bar_fill ease-in;
+  display: block;
+  background-clip: border-box;
+  border-radius: 5px;
+  height: 5px;
+  background-color: rgb(96, 92, 60);
 }

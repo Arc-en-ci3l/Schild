@@ -14,15 +14,35 @@ function MyWorks() {
   const projectInfo = [
     {
       id: 1,
-      title: "Hotel Website",
+      title: "Arc en ciel Hotel - Aug 2024",
       image: "images/placeholder.png",
-      tech: "HTML | CSS | jQuery | PHP | mySQL",
+      tech: "HTML5 | CSS3 | jQuery | PHP | mySQL",
+      description:
+        "A hotel room booking website for a fictional hotel. Made to apply what I have learnt during the semester in a full stack project [School Course Work]",
     },
     {
       id: 2,
-      title: "Koufu Website",
-      image: "images/placeholder.png",
-      tech: "HTML | CSS | JS",
+      title: "Portfolio Website - Dec 2024",
+      image: "icons/favicon.png",
+      tech: "React | CSS3",
+      description:
+        "You're looking at it right now :> - With an interest in learning React, this website to showcase myself was developed with React libraries.",
+    },
+  ];
+
+  const educationInfo = [
+    {
+      id: 2,
+      school: "Nanyang Polytechnic",
+      course: "Diploma in Infocomm & Media Engineering",
+      duration: "2023 - 2026",
+    },
+    {
+      id: 1,
+
+      school: "Montfort Secondary School",
+      course: "O Level Programme",
+      duration: "2019 - 2022",
     },
   ];
 
@@ -58,7 +78,9 @@ function MyWorks() {
             tabState === 1 ? "myWorksContent activeContent" : "myWorksContent"
           }
         >
-          <Education />
+          {educationInfo.map((info) => (
+            <Education info={info} key={info.id} />
+          ))}
         </div>
       </div>
     </article>
