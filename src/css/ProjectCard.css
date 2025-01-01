@@ -10,7 +10,9 @@
   border-radius: 5px;
 }
 .projectCardImage {
-  max-width: 180px;
+  border-radius: 5px;
+  max-width: 100%;
+  margin: 0 0 15px;
 }
 
 .projectCardLeft {
@@ -21,7 +23,7 @@
 }
 .projectCardRight {
   width: 60%;
-  margin-left: 10px;
+  margin: 0 0 0 15px;
 }
 
 .projectCardTech {

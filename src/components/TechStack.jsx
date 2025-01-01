@@ -1,21 +1,7 @@
 import "../css/TechStack.css";
+import techStack from "../data/techStack.json";
 
 function TechStack() {
-  const techStack = [
-    { name: "HTML5 & CSS3", percentage: "90%" },
-    { name: "JavaScript, jQuery", percentage: "75%" },
-    { name: "PHP", percentage: "65%" },
-    { name: "Vue.js", percentage: "65%" },
-    { name: "React", percentage: "40%" },
-    { name: "C#, ASP.NET", percentage: "40%" },
-    { name: "Dart & Flutter", percentage: "50%" },
-    { name: "Python", percentage: "50%" },
-    { name: "Java, Selenium, jUnit", percentage: "65%" },
-    { name: "mySQL, SQL", percentage: "60%" },
-    { name: "Adobe Ai, XD, Ps", percentage: "55%" },
-    { name: "Adobe Premiere Pro", percentage: "30%" },
-  ];
-
   return (
     <aside className="myTechComponent">
       <div className="myTechHeader">

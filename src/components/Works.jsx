@@ -3,6 +3,8 @@ import Education from "./Education";
 import ProjectCard from "./ProjectCard";
 
 import "../css/Works.css";
+import projects from "../data/projects.json";
+import education from "../data/education.json";
 
 function MyWorks() {
   const [tabState, setTabState] = useState(0);
@@ -10,41 +12,6 @@ function MyWorks() {
   const toggleTab = (index) => {
     setTabState(index);
   };
-
-  const projectInfo = [
-    {
-      id: 1,
-      title: "Arc en ciel Hotel - Aug 2024",
-      image: "images/placeholder.png",
-      tech: "HTML5 | CSS3 | jQuery | PHP | mySQL",
-      description:
-        "A hotel room booking website for a fictional hotel. Made to apply what I have learnt during the semester in a full stack project [School Course Work]",
-    },
-    {
-      id: 2,
-      title: "Portfolio Website - Dec 2024",
-      image: "icons/favicon.png",
-      tech: "React | JS | CSS3",
-      description:
-        "You're looking at it right now ^-^. With an interest in learning React, this website to showcase myself was developed with React libraries.",
-    },
-  ];
-
-  const educationInfo = [
-    {
-      id: 2,
-      school: "Nanyang Polytechnic",
-      course: "Diploma in Infocomm & Media Engineering",
-      duration: "2023 - 2026",
-    },
-    {
-      id: 1,
-
-      school: "Montfort Secondary School",
-      course: "O-Level Programme",
-      duration: "2019 - 2022",
-    },
-  ];
 
   return (
     <article className="myWorksComponent">
@@ -69,7 +36,7 @@ function MyWorks() {
             tabState === 0 ? "myWorksContent activeContent" : "myWorksContent"
           }
         >
-          {projectInfo.map((info) => (
+          {projects.map((info) => (
             <ProjectCard info={info} key={info.id} />
           ))}
         </div>
@@ -78,7 +45,7 @@ function MyWorks() {
             tabState === 1 ? "myWorksContent activeContent" : "myWorksContent"
           }
         >
-          {educationInfo.map((info) => (
+          {education.map((info) => (
             <Education info={info} key={info.id} />
           ))}
         </div>
