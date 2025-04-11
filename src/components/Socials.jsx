@@ -44,7 +44,7 @@ function Socials() {
 
       <button className="downloadResumeBtn">
         <a
-          href="documents/myResume.pdf"
+          href="documents/Louis_Sin.pdf"
           download="myResume.pdf"
           rel="noopener noreferrer"
           className="downloadResumeLink"
