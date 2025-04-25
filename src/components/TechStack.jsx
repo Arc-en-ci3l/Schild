@@ -1,4 +1,4 @@
-import "../css/TechStack.css";
+import "../css/techStack.css";
 import techStack from "../data/techStack.json";
 
 function TechStack() {

@@ -2,9 +2,9 @@ import { useState } from "react";
 import Education from "./Education";
 import ProjectCard from "./ProjectCard";
 
-import "../css/Works.css";
-import projects from "../data/projects.json";
+import "../css/works.css";
 import education from "../data/education.json";
+import projects from "../data/projects.json";
 
 function MyWorks() {
   const [tabState, setTabState] = useState(0);

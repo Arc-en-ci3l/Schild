@@ -1,9 +1,9 @@
 import Description from "../components/Description";
-import Works from "../components/Works";
 import Socials from "../components/Socials";
 import TechStack from "../components/TechStack";
+import Works from "../components/Works";
 
-import "../css/Home.css";
+import "../css/home.css";
 
 function Home() {
   return (

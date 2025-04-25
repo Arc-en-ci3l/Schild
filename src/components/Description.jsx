@@ -1,6 +1,6 @@
 import { differenceInYears } from "date-fns";
 
-import "../css/Description.css";
+import "../css/description.css";
 
 function MyDescription() {
   const today = new Date();
