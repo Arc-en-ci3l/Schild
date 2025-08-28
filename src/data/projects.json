@@ -1,16 +1,23 @@
 [
   {
     "id": 1,
-    "title": "Arc en ciel Hotel - Aug 2024",
-    "image": "images/ArcHotel.png",
-    "tech": "HTML5 | CSS3 | jQuery | PHP | mySQL",
-    "description": "A hotel room booking website for a fictional hotel. Made to apply what I have learnt during the semester in a full stack project [School Course Work]"
-  },
-  {
-    "id": 2,
     "title": "Portfolio Website - Dec 2024",
     "image": "icons/favicon.png",
     "tech": "React | JS | CSS3",
     "description": "You're looking at it right now ^-^. With an interest in learning React, this website to showcase myself was developed with React libraries."
+  },
+  {
+    "id": 2,
+    "title": "Customized Study Path Planner Application - May 2025",
+    "image": "icons/favicon.png",
+    "tech": "Power Apps, SharePoint Online",
+    "description": "This application was developed to replace the manual task of lecturers to plan a customised list of modules/learning units for a specific student in Nanyang Polytechnic"
+  },
+  {
+    "id": 3,
+    "title": "Arc en ciel Hotel - Aug 2024",
+    "image": "images/ArcHotel.png",
+    "tech": "HTML5 | CSS3 | jQuery | PHP | mySQL",
+    "description": "A hotel room booking website for a fictional hotel. Made to apply what I have learnt during the semester in a full stack project [School Course Work]"
   }
 ]
